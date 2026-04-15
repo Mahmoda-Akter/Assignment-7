@@ -3,6 +3,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineTextsms } from "react-icons/md";
 import { IoVideocamOutline } from "react-icons/io5";
 import { Timelinefriendcontext } from '../../Contextapi/Contextprovider';
+import {  toast } from 'react-toastify';
 
 const Quickcheck = ({expecteddata}) => {
      const {timeline,settimeline}=useContext(Timelinefriendcontext)
@@ -11,16 +12,19 @@ const Quickcheck = ({expecteddata}) => {
     const handelcall=()=>{
         console.log("call click")
         settimeline([...timeline,{...expecteddata,type:"call"}])
+        toast.success("Call successfully");
         
     }
     const handeltext=()=>{
         console.log("text click")
         settimeline([...timeline,{...expecteddata,type:"text" }])
+        toast.success("Text successfully");
         
     }
     const handelvideo=()=>{
         console.log("video click")
         settimeline([...timeline,{...expecteddata,type:"video"}])
+        toast.success("Video successfully");
         
     }
     // console.log(expecteddata);

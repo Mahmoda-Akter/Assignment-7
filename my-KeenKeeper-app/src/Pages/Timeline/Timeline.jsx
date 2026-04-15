@@ -3,6 +3,7 @@ import { Timelinefriendcontext } from '../../Contextapi/Contextprovider';
 import { IoCallSharp } from "react-icons/io5";
 import { IoMdText } from "react-icons/io";
 import { IoMdVideocam } from "react-icons/io";
+
 import { MdOutlineArrowCircleRight } from 'react-icons/md';
 
 
@@ -13,16 +14,19 @@ const Timeline = () => {
     const callbtn=(call)=>{
         const filtercall=timeline.filter(item=> item.type===call)
         setfiltred(filtercall)
-        // console.log(filtercall);
+        
+        
     }
     const textbtn=(text)=>{
         const filtercall=timeline.filter(item=> item.type===text)
         setfiltred(filtercall)
+        
         // console.log(filtercall);
     }
     const videobtn=(video)=>{
         const filtercall=timeline.filter(item=> item.type===video)
         setfiltred(filtercall)
+        
         // console.log(filtercall);
     }
     console.log(timeline, "from timeline");
