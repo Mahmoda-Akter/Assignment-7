@@ -7,7 +7,7 @@ import { Link } from 'react-router';
 const Card = ({frienditem}) => {
     return (
         <div>
-            <Link to={`/${frienditem.id}`} className="card bg-base-100 h-[250px] w-full shadow-sm pt-5">
+            <Link to={`/${frienditem.id}`} className="card bg-base-100 min-h-[250px] w-full shadow-sm pt-5">
                 <figure className='rounded-full h-[50px] w-[50px]   block mx-auto'>
                     <img src={frienditem.picture}
                     className='object-cover'/>
