@@ -4,15 +4,21 @@ const Expectedfriend = ({ expecteddata }) => {
     return (
         <div>
             <div className="card bg-base-100 h-[250px] w-full shadow-sm pt-5">
-                <figure className="">
+                <figure className='rounded-full h-[50px] w-[50px]   block mx-auto'>
                     <img src={expecteddata.picture}
-                        className='rounded-full h-[70px] w-[70px]  object-cover block mx-auto' />
+                        className='object-cover' />
                 </figure>
                 <div className="card-body items-center text-center">
-                    <h2 className="card-title">{expecteddata.name}</h2>
-                    <p>A card component has a figure</p>
-                    <div className="card-actions">
-                        <button className="btn btn-primary">Buy Now</button>
+                    <h2 className="card-title mt-4">{expecteddata.name}</h2>
+                    <button className={`p-1 pl-4 pr-4 rounded-4xl text-center
+                        ${expecteddata.status === "overdue" ? "bg-red-400" : ""}
+                        ${expecteddata.status === "on-track" ? "bg-green-700" : ""}
+                        ${expecteddata.status === "active" ? "bg-amber-300" : ""}`}
+                    >{expecteddata.status}</button>
+                    <div className="card-actions mt-4">
+                        <p className='p-1 text-center text-gray-500 bg-cyan-200 rounded-4xl'>{expecteddata.tags[0]}</p>
+                         {/* <p className='text-gray-400 text-sm'>{expecteddata.bio}</p>
+                        <p>{expecteddata.email}</p>  */}
                     </div>
                 </div>
 
