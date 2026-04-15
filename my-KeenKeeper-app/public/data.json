@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://img.freepik.com/free-photo/front-view-business-woman-suit_23-2148603018.jpg?semt=ais_hybrid&w=740&q=80",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Khan",
+    "picture": "https://randomuser.me/api/portraits/women/21.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["school", "best friend"],
+    "bio": "School best friend. Always stays in touch.",
+    "goal": 7,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "michael@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["work", "colleague"],
+    "bio": "Work friend from previous company.",
+    "goal": 14,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 4,
+    "name": "Emily Johnson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emily@example.com",
+    "days_since_contact": 2,
+    "status": "active",
+    "tags": ["gym", "fitness buddy"],
+    "bio": "Gym partner and fitness motivator.",
+    "goal": 7,
+    "next_due_date": "2025-07-12"
+  },
+  {
+    "id": 5,
+    "name": "David Lee",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "david@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["gaming", "online friend"],
+    "bio": "Met through online gaming community.",
+    "goal": 30,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 6,
+    "name": "Ayesha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "ayesha@example.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["college", "project partner"],
+    "bio": "University project partner and friend.",
+    "goal": 10,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 7,
+    "name": "James Wilson",
+    "picture": "https://randomuser.me/api/portraits/men/77.jpg",
+    "email": "james@example.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["travel", "adventure buddy"],
+    "bio": "Travel buddy from backpacking trip.",
+    "goal": 14,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 8,
+    "name": "Nadia Ahmed",
+    "picture": "https://randomuser.me/api/portraits/women/88.jpg",
+    "email": "nadia@example.com",
+    "days_since_contact": 3,
+    "status": "active",
+    "tags": ["school", "childhood friend"],
+    "bio": "Childhood friend, grew up together.",
+    "goal": 7,
+    "next_due_date": "2025-07-13"
+  }
+]
