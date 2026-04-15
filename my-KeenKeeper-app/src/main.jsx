@@ -13,6 +13,7 @@ import Timeline from './Pages/Timeline/Timeline.jsx';
 import Stats from './Pages/Stats/Stats.jsx';
 import Frienddtails from './Pages/Frienddetail/Frienddtails.jsx';
 import Contextprovider from './Contextapi/Contextprovider.jsx';
+import Notpoundpage from './Pages/Notpoundpage/Notpoundpage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,7 +37,7 @@ const router = createBrowserRouter([
       element:<Stats></Stats>
     },
   ],
-  errorElement:<h1>Not pound page</h1>
+  errorElement:<Notpoundpage></Notpoundpage>
   },
   
   

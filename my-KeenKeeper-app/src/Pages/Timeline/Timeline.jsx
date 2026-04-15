@@ -44,7 +44,7 @@ const Timeline = () => {
             
 
             {
-                filterd.map(timelinedata => {
+               filterd.length===0?<h1 className=' mt-10 text-center font-bold'>No data available here</h1>: filterd.map(timelinedata => {
                     
                     return (
                         
@@ -57,7 +57,10 @@ const Timeline = () => {
                                 </div>
 
                                 <div>
-                                    <h1 className='text-xl font-bold'>{timelinedata.name}</h1>
+                                    <h1 className='text-xl text-gray-500'>{timelinedata.type==="call"?<span className='text-black text-xl font-bold'>Call with </span>:""}
+                                    {timelinedata.type==="text"?<span className='text-xl font-bold text-black'>Text with </span>:""}
+                                    {timelinedata.type==="video"?<span className='text-xl font-bold text-black'>Video with </span>:""}
+                                     {timelinedata.name}</h1>
                                     <h1 >{new Date().toLocaleDateString()}</h1>
                                 </div>
 

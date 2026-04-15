@@ -1,4 +1,7 @@
 import React from 'react';
+import { FaRegBell } from "react-icons/fa";
+import { GoArchive } from "react-icons/go";
+import { AiOutlineDelete } from "react-icons/ai";
 
 const Expectedfriend = ({ expecteddata }) => {
     return (
@@ -27,9 +30,9 @@ const Expectedfriend = ({ expecteddata }) => {
 
             </div>
             <div className='mt-4 flex flex-col gap-3'>
-                <h1 className='bg-base-100 p-2 shadow-sm text-center font-bold'>Snooze 2 weeks</h1>
-                <h1 className='bg-base-100 p-2 shadow-sm text-center font-bold'>Archive</h1>
-                <h1 className='bg-base-100 p-2 shadow-sm text-center font-bold'>Delete</h1>
+                <h1 className='bg-base-100 p-2 shadow-sm flex justify-center items-center gap-2 font-bold'><FaRegBell /> Snooze 2 weeks</h1>
+                <h1 className='bg-base-100 p-2 shadow-sm flex justify-center items-center gap-2  font-bold'><GoArchive /> Archive</h1>
+                <h1 className='bg-base-100 p-2 shadow-sm flex justify-center items-center gap-2  font-bold text-red-500'><AiOutlineDelete /> Delete</h1>
             </div>
         </div>
     );

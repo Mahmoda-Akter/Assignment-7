@@ -11,7 +11,7 @@ const Friends = () => {
     return (
         <div className='w-[80%] mx-auto mt-10 bg-base-200'>
             <h1 className='font-bold text-2xl'>Your Friends</h1>
-            <div className='grid sm:w-[90%] grid-cols-1 justify-center md:grid-cols-2  lg:grid-cols-4 gap-4 mt-10'>
+            <div className='grid sm: grid-cols-1 justify-center md:grid-cols-2  lg:grid-cols-4 gap-4 mt-10'>
                 
                 {
                    loding?<div className='col-span-full flex justify-center items-center h-[250px]'><span className="loading loading-spinner loading-xl bg-green-700 text-center block"></span></div>: 

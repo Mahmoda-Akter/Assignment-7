@@ -20,8 +20,8 @@ const Frienddtails = () => {
 
     if (loding) {
         return (
-            <div>
-                <h1>Loding....</h1>
+            <div className='col-span-full flex justify-center items-center h-[250px]'>
+                <span className="loading loading-spinner loading-xl bg-green-700 text-center block"></span>
             </div>
         )
     }
