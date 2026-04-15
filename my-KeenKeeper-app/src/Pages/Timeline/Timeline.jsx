@@ -53,8 +53,8 @@ const Timeline = () => {
                                 </div>
 
                                 <div>
-                                    <h1 >{timelinedata.name}</h1>
-                                    <h1 >{timelinedata.next_due_date}</h1>
+                                    <h1 className='text-xl font-bold'>{timelinedata.name}</h1>
+                                    <h1 >{new Date().toLocaleDateString()}</h1>
                                 </div>
 
                             </div>
