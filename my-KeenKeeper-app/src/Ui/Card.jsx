@@ -1,30 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-// bio
-// : 
-// "Met in university. Love hiking together."
-// days_since_contact
-// : 
-// 12
-// email
-// : 
-// "john@example.com"
-// goal
-// : 
-// 14
-// id
-// : 
-// 1
-// name
-// : 
-// "John Doe"
-// next_due_date
-// : 
-// "2025-07-20"
-// picture
-// : 
-// "https://randomuser.me/api/portraits/men/11.jpg"
+
 
 
 const Card = ({frienditem}) => {
